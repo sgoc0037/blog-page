@@ -164,6 +164,12 @@ main .opening-layer .cutaway:nth-child(2) div::before {
 main .opening-layer .cutaway:last-child div::before {
   content: "☺";
 }
+@media screen and (max-width: 768px) {
+  main .opening-layer .cutaway {
+    width: 45%;
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 600px) {
   main .opening-layer .cutaway {
     width: 100%;
